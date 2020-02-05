@@ -6,5 +6,5 @@ import org.springframework.boot.context.properties.ConfigurationProperties
 class DemoConfig {
     lateinit var first: String
     lateinit var second: String
-    lateinit var nestedFirst: String
+    lateinit var nested: Map<String, String>
 }

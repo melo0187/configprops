@@ -23,4 +23,8 @@ class DemoConfigTest {
         assertThat(demoConfig.second).isEqualTo("another.example.com")
     }
 
+    @Test
+    internal fun getNested() {
+        assertThat(demoConfig.nested.values).contains("first", "second")
+    }
 }
