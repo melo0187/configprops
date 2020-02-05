@@ -1,0 +1,4 @@
+my:
+  settings:
+    first: dev.example.com
+    second: another.example.com
