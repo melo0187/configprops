@@ -5,3 +5,9 @@ my:
     nested:
       first: first
       second: second
+  datasettings:
+    first: dev.example.com
+    second: another.example.com
+    nested:
+      first: first
+      second: second
